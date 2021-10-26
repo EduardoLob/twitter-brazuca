@@ -1,0 +1,27 @@
+.list-menu{
+    list-style-type: none;
+}
+
+.list-menu li {
+    display: flex;
+}
+
+.list-menu span {
+    margin-right: 10px;
+}
+
+button{
+    border-radius: 30px;
+    width: 45%;
+    height: 13%;
+    margin-left: 20px;
+    border: none;
+    background-color: #1D9BF0 !important;
+}
+
+.flutter{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
