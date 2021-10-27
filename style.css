@@ -1,3 +1,8 @@
+
+html, body {
+    overflow-x: hidden;
+}
+
 .list-menu{
     list-style-type: none;
 }
@@ -8,20 +13,75 @@
 
 .list-menu span {
     margin-right: 10px;
+    margin-left: 250px;
 }
 
-button{
+.botao1{
     border-radius: 30px;
-    width: 45%;
-    height: 13%;
-    margin-left: 20px;
+    width: 40%;
+    height: 10%;
+    margin-left: 260px;
     border: none;
+    color: white;
     background-color: #1D9BF0 !important;
 }
 
 .flutter{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 280px;
     margin-bottom: 20px;
 }
 
+.form-control{
+    width: 500px;
+    border: none;
+}
+
+.search{
+    margin-top: 10px;
+}
+
+.navbar{
+    border-style: none;
+    border-radius: 30px;
+    width: 350px;
+    background-color: #EFF3F4 !important;
+}
+
+.procurar{
+    width: 350px;
+}
+
+.icons-imgplus{
+    margin-left: 50px;
+}
+
+.botao2{
+    width: 80px;
+    height: 35px;
+    margin-left: 320px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #1D9BF0 !important;
+    color: white;
+}
+
+.user1{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.texto1{
+    margin-left: 30px;
+}
+
+.list-group-item:hover{
+    background-color: #EFF3F4;
+}
+
+.whatsHapp{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 50%;
+}
